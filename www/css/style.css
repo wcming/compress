@@ -1,0 +1,93 @@
+* {
+  box-sizing: border-box; }
+
+body {
+  font-size: 0.12rem;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  display: -webkit-flex;
+  -webkit-flex-direction: column; }
+
+a, input, button, select, textarea {
+  -webkit-tap-highlight-color: transparent;
+  appearance: none;
+  border: none;
+  outline: none; }
+
+.header {
+  font-size: 0.16rem;
+  height: 0.44rem;
+  line-height: 0.44rem;
+  position: relative;
+  background: #393A3F;
+  color: #FFF;
+  padding-left: 0.64rem; }
+  .header .back {
+    position: absolute;
+    left: 0.1rem;
+    font-size: 0.3rem; }
+  .header .right {
+    position: absolute;
+    right: 0.1rem;
+    top: 0;
+    line-height: 0.44rem; }
+
+.content {
+  -webkit-flex: 1;
+  overflow-y: scroll; }
+
+.mark {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.5); }
+  .mark .con {
+    width: 3rem;
+    height: 4rem;
+    background: #FFF;
+    border-radius: 0.05rem;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto; }
+    .mark .con .logo {
+      width: 100%;
+      text-align: center;
+      margin-top: 0.3rem; }
+      .mark .con .logo img {
+        width: 1.35rem; }
+      .mark .con .logo p {
+        font-size: 0.16rem;
+        margin-top: 0.1rem; }
+    .mark .con .tel, .mark .con .pwd {
+      width: 90%;
+      line-height: 0.4rem;
+      height: 0.4rem;
+      margin-left: 5%;
+      margin-top: 0.4rem;
+      border-bottom: 1px solid #CCC;
+      position: relative;
+      padding-left: 0.4rem; }
+      .mark .con .tel img, .mark .con .pwd img {
+        width: 0.15rem;
+        position: absolute;
+        left: 0.1rem;
+        top: 0.1rem; }
+      .mark .con .tel inout, .mark .con .pwd inout {
+        width: 100%;
+        height: 100%; }
+    .mark .con button {
+      width: 90%;
+      height: 0.4rem;
+      background: #2FBA77;
+      color: #FFF;
+      margin-top: 0.4rem;
+      margin-left: 5%;
+      border-radius: 0.05rem; }
+
+/*# sourceMappingURL=style.css.map */
